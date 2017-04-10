@@ -1,0 +1,17 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">How To Engage:</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li{% if page.slug == 'docs' %} class="active"{% endif %}><a href="/definition/">Documentation (v1.1)</a></li>
+        <!--<li{% if page.slug == 'json' %} class="active"{% endif %}><a href="/definition/json/">OpenAPI (JSON) (v1.1)</a></li>-->
+        <li{% if page.slug == 'yaml' %} class="active"{% endif %}><a href="/definition/yaml/">OpenAPI (YAML) (v1.1)</a></li>
+        <li{% if page.slug == 'discussion' %} class="active"{% endif %}><a href="/definition/discussion/">Discussion (v1.1)</a></li>
+        <li{% if page.slug == 'v10' %} class="active"{% endif %}><a href="/definition/v10/">v1.0</a></li>
+        <li{% if page.slug == 'diff' %} class="active"{% endif %}><a href="/definition/diff/">Diff</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
