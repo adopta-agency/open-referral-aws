@@ -3,16 +3,18 @@ layout: page
 title: 'Open Referral AWS'
 ---
 
-<p>This is a project for develop Human Services Data Specification (HSDS) implementations that run on the Amazon Web Services platform. All work on projects that run on AWS will be coordinated here on this site that runs on Github.</p>
+<p>This is a project for developing Human Services Data Specification (HSDS) implementations that run on the Amazon Web Services platform--this project is entirely managed via <a href="https://github.com/adopta-agency/open-referral-aws">its Github repository</a>.</p>
 <p><img src="/images/open_referral_aws.png" width="25%" align="right" /></p>
 <p><strong>AWS Services</strong></p>
 <p>These are the AWS solutions that are currently being used or considered as part of delivering projects:</p>
 <ul>
   <li><a href="https://aws.amazon.com/ec2/" target="_blank"><strong>Amazon EC2</strong></a> - A Linux Amazon EC2 instance that runs Apache, with PHP 5.3 that runs the API.</li>
   <li><a href="https://aws.amazon.com/rds/" target="_blank"><strong>Amazon RDS</strong></a> - A MySQL Amazon RDS instance that runs the database behind the API.</li>
+  <li><a href="https://aws.amazon.com/api-gateway/" target="_blank"><strong>Amazon API Gateway</strong></a> - This isn't currently being used, but I would like to use for delivering an API management layer.</li>
+  <li><a href="https://aws.amazon.com/lambda/" target="_blank"><strong>Amazon Lambda</strong></a> - Just putting this here as a reference for what should come, when we are doing this in a serverless way.</li>
 </ul>
 <p><strong>Tooling</strong></p>
-<p>These are tools that are used as part of delivering this project:</p>
+<p>These are tools that are used as across any of the sub-projects included in this project.:</p>
 <ul>
   <li><a href="https://www.openapis.org/" target="_blank"><strong>OpenAPI Specification</strong></a> - An API specification format used to define the request and response model for the API.</li>
   <li><a href="http://json-schema.org/" target="_blank"><strong>JSON Schema</strong></a> - A vocabulary that allows you to annotate and validate JSON documents.</li>
@@ -24,6 +26,10 @@ title: 'Open Referral AWS'
 <ul>
   <li><a href="https://github.com/adopta-agency/open-referral-api" target="_blank"><strong>HSDS PHP API Prototype</strong></a> (Github) - A current set of PHP scripts that is deployed to support the API.</li>
   <li><a href="http://developer.open.referral.adopta.agency/" target="_blank"><strong>Developer Portal (PHP Prototype)</strong></a> - A Github Pages hosted Jeykll developer portal developed on top of the HSDS PHP API prototype.</li>
+  <li><strong>HSDS Node.js API Prototype</strong></a> - It would be nice to have a server side implementation of the HSDS API in Node.js, that would run on AWS.</li>
+  <li><strong>HSDS Ruby API Prototype</strong></a> - It would be nice to have a server side implementation of the HSDS API in Ruby, that would run on AWS.</li>
+  <li><strong>HSDS Python API Prototype</strong></a> - It would be nice to have a server side implementation of the HSDS API in Python, that would run on AWS.</li>
+  <li><strong>HSDS API (Serverless)</strong></a> - I would like someone to explore with the creation of an HSDS API running using AWS Lambda, and AWS Gateway.</li>
 </ul>
 <p><strong>Communication</strong></p>
 <p>These are the communication channels used as part of this project:</p>
